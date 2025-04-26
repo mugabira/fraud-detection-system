@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14" pages="2">
   <diagram name="Page-1" id="KZF8nSdD4FeOs1GV-kFl">
-    <mxGraphModel dx="4168" dy="3352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="1226" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#000000)" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,12 +57,20 @@
             <mxPoint x="471" y="-651" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c2FdeN_dxvbNyN5L3kbx-18" value="&lt;h1&gt;Fraud Detection System&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="201" y="-980" width="440" height="100" as="geometry" />
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-18" value="&lt;h1&gt;Fraud Detection System&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=11;labelBackgroundColor=light-dark(#FFFFFF,#7048FF);" vertex="1" parent="1">
+          <mxGeometry x="59" y="-1020" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="c2FdeN_dxvbNyN5L3kbx-19" value="&lt;h4&gt;&lt;i&gt;by Anthony Mugabira&lt;/i&gt;&lt;/h4&gt;&lt;h4&gt;&lt;i&gt;www.mugabira.com&lt;/i&gt;&lt;/h4&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="681" y="-551" width="150" height="90" as="geometry" />
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-19" value="&lt;h4&gt;&lt;i&gt;by&amp;nbsp;&lt;/i&gt;&lt;/h4&gt;&lt;h4&gt;&lt;i&gt;Anthony Mugabira&lt;/i&gt;&lt;/h4&gt;&lt;h4&gt;&lt;i&gt;www.mugabira.com&lt;/i&gt;&lt;/h4&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="59" y="-961" width="120" height="100" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aVj2pQ-lo7KmmcypBgPM" name="Page-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
