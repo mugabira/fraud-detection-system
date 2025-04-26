@@ -1,9 +1,68 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14">
   <diagram name="Page-1" id="KZF8nSdD4FeOs1GV-kFl">
-    <mxGraphModel>
+    <mxGraphModel dx="1042" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="c2FdeN_dxvbNyN5L3kbx-1" target="c2FdeN_dxvbNyN5L3kbx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-1" value="Transaction producer" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="257" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2FdeN_dxvbNyN5L3kbx-2" target="c2FdeN_dxvbNyN5L3kbx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="c2FdeN_dxvbNyN5L3kbx-2" target="c2FdeN_dxvbNyN5L3kbx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-2" value="Central messaging bus (kafka)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="365" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="c2FdeN_dxvbNyN5L3kbx-3" target="c2FdeN_dxvbNyN5L3kbx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-3" value="Rules based detection service" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="580" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="c2FdeN_dxvbNyN5L3kbx-4" target="c2FdeN_dxvbNyN5L3kbx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="c2FdeN_dxvbNyN5L3kbx-4" target="c2FdeN_dxvbNyN5L3kbx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-4" value="Alerting service" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="188" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="c2FdeN_dxvbNyN5L3kbx-5" target="c2FdeN_dxvbNyN5L3kbx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-5" value="Alert db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="c2FdeN_dxvbNyN5L3kbx-6" target="c2FdeN_dxvbNyN5L3kbx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-6" value="Rules db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="702" y="30" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="c2FdeN_dxvbNyN5L3kbx-7" target="c2FdeN_dxvbNyN5L3kbx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-7" value="Machine learning detection service" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="622" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="c2FdeN_dxvbNyN5L3kbx-3" target="c2FdeN_dxvbNyN5L3kbx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-18" value="&lt;h1&gt;Fraud Detection System&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-15" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c2FdeN_dxvbNyN5L3kbx-19" value="&lt;h4&gt;&lt;i&gt;by Anthony Mugabira&lt;/i&gt;&lt;/h4&gt;&lt;h4&gt;&lt;i&gt;www.mugabira.com&lt;/i&gt;&lt;/h4&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="420" width="150" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
