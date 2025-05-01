@@ -1,9 +1,240 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14">
   <diagram name="Page-1" id="n7bvPKmvUGIKGyg8msd9">
-    <mxGraphModel>
+    <mxGraphModel dx="1389" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#1A1A1A)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-1" value="Planning &amp; Requirements" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-7" value="&lt;strong data-start=&quot;174&quot; data-end=&quot;197&quot;&gt;Gather requirements&lt;/strong&gt; for the new feature" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;glass=1;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-1">
+          <mxGeometry x="20" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" source="Yx-CeRLQ5RkrSvsVG92G-7" target="Yx-CeRLQ5RkrSvsVG92G-9" parent="Yx-CeRLQ5RkrSvsVG92G-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-9" value="&lt;strong data-start=&quot;257&quot; data-end=&quot;280&quot;&gt;Create user stories&lt;/strong&gt; or tasks in a tracking tool (e.g., Jira)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;glass=1;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-1">
+          <mxGeometry x="180" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" target="Yx-CeRLQ5RkrSvsVG92G-11" source="Yx-CeRLQ5RkrSvsVG92G-9" parent="Yx-CeRLQ5RkrSvsVG92G-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-11" value="&lt;strong data-start=&quot;325&quot; data-end=&quot;355&quot;&gt;Define acceptance criteria&lt;/strong&gt; and success metrics." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;glass=1;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-1">
+          <mxGeometry x="90" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-12" value="Design" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="450" y="130" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-14" value="" style="edgeStyle=orthogonalEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=diamondThin;endArrow=none;rounded=0;startFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.62;exitY=-0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-12" source="Yx-CeRLQ5RkrSvsVG92G-17" target="Yx-CeRLQ5RkrSvsVG92G-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;strong data-start=&quot;403&quot; data-end=&quot;419&quot;&gt;UI/UX design&lt;/strong&gt; created (Figma or similar)." treeRoot="1" id="Yx-CeRLQ5RkrSvsVG92G-15">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;rounded=1;glass=1;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-12">
+            <mxGeometry x="20" y="40" width="100" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-17" value="&lt;strong data-start=&quot;450&quot; data-end=&quot;475&quot;&gt;Architecture planning&lt;/strong&gt;, considering backend, mobile, and API changes." style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;rounded=1;glass=1;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-12">
+          <mxGeometry x="50" y="115" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-21" value="Development (Feature Branching)" style="swimlane;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;sortEdges=1;resizable=0;containerType=tree;fontSize=12;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="130" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-22" value="&lt;strong data-start=&quot;574&quot; data-end=&quot;601&quot;&gt;Create a feature branch&lt;/strong&gt; from the main branch (&lt;code data-start=&quot;624&quot; data-end=&quot;630&quot;&gt;main&lt;/code&gt; or &lt;code data-start=&quot;634&quot; data-end=&quot;643&quot;&gt;develop&lt;/code&gt;)" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;rounded=0;gradientColor=default;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-21">
+          <mxGeometry x="53.75" y="40" width="122.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-23" value="&lt;strong data-start=&quot;648&quot; data-end=&quot;662&quot;&gt;Write code&lt;/strong&gt; (UI, logic, API calls)." style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;rounded=0;gradientColor=default;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-21">
+          <mxGeometry x="20" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-24" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;flowAnimation=1;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-21" source="Yx-CeRLQ5RkrSvsVG92G-22" target="Yx-CeRLQ5RkrSvsVG92G-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-25" value="&lt;strong data-start=&quot;689&quot; data-end=&quot;705&quot;&gt;Unit testing&lt;/strong&gt; and &lt;strong data-start=&quot;710&quot; data-end=&quot;733&quot;&gt;integration testing&lt;/strong&gt; locally." style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;rounded=0;gradientColor=default;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-21">
+          <mxGeometry x="140" y="140" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-26" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;flowAnimation=1;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-21" source="Yx-CeRLQ5RkrSvsVG92G-22" target="Yx-CeRLQ5RkrSvsVG92G-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-54" value="Code Review &amp; Merge" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="950" y="240" width="340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-55" value="Push code to remote (GitHub, GitLab, Bitbucket)." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;glass=1;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-54">
+          <mxGeometry x="15" y="40" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-54" target="Yx-CeRLQ5RkrSvsVG92G-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-57" value="Open a &lt;strong data-start=&quot;886&quot; data-end=&quot;907&quot;&gt;Pull Request (PR)&lt;/strong&gt; or &lt;strong data-start=&quot;911&quot; data-end=&quot;933&quot;&gt;Merge Request (MR)&lt;/strong&gt;." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;glass=1;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-54">
+          <mxGeometry x="114" y="40" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-54" source="Yx-CeRLQ5RkrSvsVG92G-57" target="Yx-CeRLQ5RkrSvsVG92G-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="19" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-54" source="Yx-CeRLQ5RkrSvsVG92G-59" target="Yx-CeRLQ5RkrSvsVG92G-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-59" value="Team members review, suggest changes, and approve." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;glass=1;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-54">
+          <mxGeometry x="259" y="30" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-54" source="Yx-CeRLQ5RkrSvsVG92G-65" target="Yx-CeRLQ5RkrSvsVG92G-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-65" value="Run automated &lt;strong data-start=&quot;1004&quot; data-end=&quot;1017&quot;&gt;CI checks&lt;/strong&gt; (build, lint, unit tests)." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;glass=1;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-54">
+          <mxGeometry x="199" y="140" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-66" value="Once approved, &lt;strong data-start=&quot;1062&quot; data-end=&quot;1071&quot;&gt;merge&lt;/strong&gt; into the staging or develop branch." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;glass=1;fontSize=9;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-54">
+          <mxGeometry x="39" y="135" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-73" value="CI/CD Pipeline (Build &amp; Test)" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;fillColor=#ffff88;strokeColor=#36393d;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-73" source="Yx-CeRLQ5RkrSvsVG92G-83" target="Yx-CeRLQ5RkrSvsVG92G-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-83" value="CI triggers build process:" style="swimlane;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;sortEdges=1;resizable=0;containerType=tree;fontSize=12;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-73">
+          <mxGeometry x="180" y="40" width="240" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-84" value="&lt;strong data-end=&quot;1172&quot; data-start=&quot;1157&quot;&gt;CI triggers&lt;/strong&gt; build process:" style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;rounded=1;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-83">
+          <mxGeometry x="80" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-85" value="Compile mobile app (Android/iOS)" style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;rounded=1;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-83">
+          <mxGeometry x="20" y="130" width="80" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-86" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;fillColor=#ffff88;strokeColor=#36393d;flowAnimation=1;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-83" source="Yx-CeRLQ5RkrSvsVG92G-84" target="Yx-CeRLQ5RkrSvsVG92G-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-87" value="Run &lt;strong data-end=&quot;1248&quot; data-start=&quot;1234&quot;&gt;unit tests&lt;/strong&gt;, &lt;strong data-end=&quot;1262&quot; data-start=&quot;1250&quot;&gt;UI tests&lt;/strong&gt;, &lt;strong data-end=&quot;1275&quot; data-start=&quot;1264&quot;&gt;linting&lt;/strong&gt;." style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;rounded=1;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-83">
+          <mxGeometry x="140" y="130" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-88" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;fillColor=#ffff88;strokeColor=#36393d;flowAnimation=1;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-83" source="Yx-CeRLQ5RkrSvsVG92G-84" target="Yx-CeRLQ5RkrSvsVG92G-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;fillColor=#ffff88;strokeColor=#36393d;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-73" source="Yx-CeRLQ5RkrSvsVG92G-103" target="Yx-CeRLQ5RkrSvsVG92G-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-103" value="Build artifacts are generated (e.g., APK, IPA)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-73">
+          <mxGeometry x="20" y="40" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-104" value="If everything passes, pipeline continues." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-73">
+          <mxGeometry x="25" y="160" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-109" value="Release &amp; Deployment" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="519" width="335" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-120" value="Feature is flagged for release (may use &lt;strong data-end=&quot;1741&quot; data-start=&quot;1724&quot;&gt;feature flags&lt;/strong&gt; or &lt;strong data-end=&quot;1762&quot; data-start=&quot;1745&quot;&gt;remote config&lt;/strong&gt;)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-109">
+          <mxGeometry x="15" y="30" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" source="Yx-CeRLQ5RkrSvsVG92G-120" target="Yx-CeRLQ5RkrSvsVG92G-122" parent="Yx-CeRLQ5RkrSvsVG92G-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-122" value="Code is merged into &lt;code data-end=&quot;1793&quot; data-start=&quot;1787&quot;&gt;main&lt;/code&gt; or &lt;code data-end=&quot;1806&quot; data-start=&quot;1797&quot;&gt;release&lt;/code&gt; branch." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-109">
+          <mxGeometry x="185" y="30" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" target="Yx-CeRLQ5RkrSvsVG92G-124" source="Yx-CeRLQ5RkrSvsVG92G-122" parent="Yx-CeRLQ5RkrSvsVG92G-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="445" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-124" value="&lt;strong data-end=&quot;1962&quot; data-start=&quot;1938&quot;&gt;Deploy to app stores&lt;/strong&gt; (Google Play, Apple App Store) via CI/CD tools (e.g., Fastlane)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-109">
+          <mxGeometry x="185" y="130" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" target="Yx-CeRLQ5RkrSvsVG92G-130" source="Yx-CeRLQ5RkrSvsVG92G-124" parent="Yx-CeRLQ5RkrSvsVG92G-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="445" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-130" value="Monitor for build success and store approval." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-109">
+          <mxGeometry x="25" y="130" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-136" value="Staging Deployment" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="920" y="510" width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-137" value="Deploy build to &lt;strong data-end=&quot;1448&quot; data-start=&quot;1425&quot;&gt;staging environment&lt;/strong&gt; (e.g., Firebase App Distribution, TestFlight)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-136">
+          <mxGeometry x="16.5" y="30" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-136" source="Yx-CeRLQ5RkrSvsVG92G-137" target="Yx-CeRLQ5RkrSvsVG92G-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-139" value="QA team or testers &lt;strong data-end=&quot;1537&quot; data-start=&quot;1517&quot;&gt;validate feature&lt;/strong&gt; against acceptance criteria." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-136">
+          <mxGeometry x="203.5" y="30" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-136" source="Yx-CeRLQ5RkrSvsVG92G-139" target="Yx-CeRLQ5RkrSvsVG92G-141">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="333.5" y="445" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-141" value="Conduct &lt;strong data-end=&quot;1607&quot; data-start=&quot;1577&quot;&gt;manual/exploratory testing&lt;/strong&gt;, if needed." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-136">
+          <mxGeometry x="203.5" y="150" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" parent="Yx-CeRLQ5RkrSvsVG92G-136" source="Yx-CeRLQ5RkrSvsVG92G-141" target="Yx-CeRLQ5RkrSvsVG92G-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="503.5" y="445" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-143" value="Collect and fix bugs." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="Yx-CeRLQ5RkrSvsVG92G-136">
+          <mxGeometry x="16.5" y="150" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-149" value="&lt;div&gt;&lt;font&gt;&lt;b&gt; Step-by-step outline of how a new feature is developed and deployed in a mobile app using &lt;span data-start=&quot;99&quot; data-end=&quot;129&quot;&gt;CI/CD and DevOps practices.&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font&gt;&lt;b&gt;&lt;span data-start=&quot;99&quot; data-end=&quot;129&quot;&gt;by Anthony Mugabira www.mugabira.com&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;labelBorderColor=light-dark(#000000,#000000);labelBackgroundColor=default;shadow=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="60" width="940" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-150" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.594;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;flowAnimation=1;shadow=1;" edge="1" parent="1" source="Yx-CeRLQ5RkrSvsVG92G-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="220" as="sourcePoint" />
+            <mxPoint x="450" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-151" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=3;flowAnimation=1;shadow=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yx-CeRLQ5RkrSvsVG92G-21" target="Yx-CeRLQ5RkrSvsVG92G-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="180" as="sourcePoint" />
+            <mxPoint x="1160" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-152" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;flowAnimation=1;shadow=1;" edge="1" parent="1" source="Yx-CeRLQ5RkrSvsVG92G-12" target="Yx-CeRLQ5RkrSvsVG92G-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="370" as="sourcePoint" />
+            <mxPoint x="650" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-153" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.567;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;flowAnimation=1;shadow=1;" edge="1" parent="1" target="Yx-CeRLQ5RkrSvsVG92G-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="360" as="sourcePoint" />
+            <mxPoint x="1250" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="709" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-154" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="467" as="sourcePoint" />
+            <mxPoint x="240" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="467" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx-CeRLQ5RkrSvsVG92G-155" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="490" as="sourcePoint" />
+            <mxPoint x="1140" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
